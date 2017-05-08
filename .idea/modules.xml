@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClippingSample/ClippingSample.iml" filepath="$PROJECT_DIR$/ClippingSample/ClippingSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomView.iml" filepath="$PROJECT_DIR$/CustomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomViews/CustomViews.iml" filepath="$PROJECT_DIR$/CustomViews/CustomViews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DragAndDraw/DragAndDraw.iml" filepath="$PROJECT_DIR$/DragAndDraw/DragAndDraw.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_wave_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                tools:context=".WaveView.WaveViewActivity">
+
+    <com.owl.customview.WaveView.WaveView
+        android:id="@+id/id_waveView_triangle"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        app:mode="triangle"
+        app:waveCount="20"
+        app:waveWidth="10"/>
+
+    <com.owl.customview.WaveView.WaveView
+        android:id="@+id/id_waveView_circle"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/id_waveView_triangle"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/black"
+        android:padding="50dp"
+        app:mode="circle"
+        app:waveCount="20"
+        app:waveWidth="10"/>
+
+</RelativeLayout>
